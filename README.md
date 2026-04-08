@@ -10,3 +10,13 @@ AZURE_OPENAI_ENDPOINT= **-----------Your Deatils-----------**
 AZURE_OPENAI_API_KEY= **-----------Your Deatils-----------**
 AZURE_OPENAI_RESPONSES_DEPLOYMENT_NAME=gpt-4o-mini
 AZURE_OPENAI_API_VERSION=2025-03-01-preview
+
+
+## run the agent and review the responses
+
+```python
+Command:
+1-> python main.py
+2-> python main.py --interactive
+    Is employee data protected under GDPR?
+```
